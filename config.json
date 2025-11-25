@@ -1,42 +1,29 @@
 {
-  "log": {
-    "loglevel": "warning"
-  },
-
-  "inbounds": [
-    {
-      "port": 8080,
-      "protocol": "trojan",
-      "settings": {
-        "clients": [
-          {
-            "password": "zorozoro",
-            "level": 0
-          }
-        ],
-        "decryption": "none"
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "path": "/tg-@ZORO40_DZ",
-          "headers": {
-            "Host": "youtube.com"
-          }
-        }
-      },
-      "sniffing": {
-        "enabled": true,
-        "destOverride": ["http", "tls"]
-      }
-    }
-  ],
-
-  "outbounds": [
-    {
-      "protocol": "freedom",
-      "settings": {}
-    }
-  ]
+"inbounds": [
+{
+"port": 8080,
+"protocol": "trojan",
+"settings": {
+"clients": [
+{
+"password": "d2cb8181-233c-4d18-9972-8a1b04db0044",
+"level": 0
+}
+],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "ws",
+"wsSettings": {
+"path": "/GCP_OOREDOO_DZ"
+}
+}
+}
+],
+"outbounds": [
+{
+"protocol": "freedom",
+"settings": {}
+}
+]
 }
